@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.card {
+  height: 650px;
+  width: 420px;
+  margin: 75px auto;
+}
+
+.card-text {
+    margin-left: 30px;
+    color: hsl(227, 4%, 49%);
+}
+
+.content {
+    margin: auto;
+    padding: 20px 20px 15px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5%;
+}
+
+.price {
+    line-height: 8px;
+    margin: 10px 10px;
+    text-align: left;
+}
+
+.icon {
+    float: left;
+    margin: 0px 18px auto auto;
+    padding: 0;
+}
+
+#plan {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#price {
+    color: hsl(227, 4%, 49%);
+}
+
+.change {
+    font-size: 14px;
+    float: right;
+    color: hsl(245, 75%, 52%);
+    position: relative;
+    bottom: 45px;
+}
+
+.btn {
+    margin: 35px auto 30px 1px;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0px 10px 10px 0px hsla(245, 63%, 67%, 0.486);
+}
+
+.cancel-order {
+    color: hsl(227, 4%, 49%);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.change:hover {
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: hsl(245, 75%, 52%);
+}
+
+.cancel-order:hover {
+    color: black;
+}
